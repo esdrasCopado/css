@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #FF6200;
+
+        }
+
+        #conteiner{
+            background-color: #fff;
+            margin: 0 auto;
+            padding: 15px;
+            width: 500px;
+        }
+        #conteiner ul{
+            background-color: #bbb;
+
+            /* establece la pisicion del punto de la lista, inside, outside */
+            list-style-position: inside;
+            /*se puede cambiar la figura por defecto con una figura pre establecida
+              como disc, cirle, lower|opper roman latin (numeros romanos o letras latinas), squere.
+              tambien se puede usar numeros con alpha pero solo en listas ordenadas ol
+              */
+            list-style-type: circle;
+            /*se puede poner una imagen, considerar que la imagen debe de coincidir con el tamaño*/
+            list-style-image: url('http://www.freepngimg.com/thumb/star/1-red-star-png-image-thumb.png');
+
+
+        }
+        #conteiner ul li{
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="main">
+        <!--ul es una lista no ordenada o unordered list-->
+        <div id="conteiner">
+            
+            <ul>
+                <li>primer elemento</li>
+                <li>segundo elemento</li>
+                <li>tercer elemento</li>
+                <li>cuarto elemento</li>
+                <li>quinto elemento</li>
+            </ul>
+
+        </div>
+    </div>
+    
+</body>
+</html>

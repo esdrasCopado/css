@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #DE6F14;
+            font-family: Helvetica;
+
+        }
+        #container{
+            margin: 0 auto;
+        }
+        #container{
+            background-color: white;
+            width: 400px;
+            padding: 5px 10px;
+        }
+        .campo{
+            padding: 10px 0;
+        }
+        .campo input, .campo textarea{
+            padding: 10px;
+            width: 380px;
+        }
+        .boton{
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="main">
+
+        <div id="container">
+            <div class="campo">
+                Nombre: <p><input type="text" placeholder="Escribir nombre"></p>
+            </div>
+            <div class="campo">
+            Correo electronico: <p> <input type="text" placeholder="usario@example.com"></p>
+            </div>
+            <div class="campo">
+            Comentarios: <p> <textarea ></textarea></p>
+            </div>
+            <div class="campo">
+            <input type="submit" class="boton" value="enviar datos">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

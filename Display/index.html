@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        la propiedad inline representa los elementos en line por lo que podria cortarlos.
+        el elemento inline solo deberiamos usalo en elementos que son inline, o que no son
+        son contenedores porque no va afectar a todos los elementos que lo contienen.
+        ejemplo donde el [] es un contenedor
+        [
+        elemento1
+        elemento2
+        ]
+        */
+        body{
+            background-color: #E83FA7;
+        }
+        #container{
+            background-color: #fff;
+            margin: 150px auto;
+            padding: 15px;
+            width: 500px;
+        }
+
+        #container .card{
+            border: solid 1px black;
+            padding: 0.5rem;
+            width: 100px;
+            /*
+            inline, block, inline-block, none
+            */
+            display:inline-block ;
+        }
+        #container .card h2{
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="container">
+        <div class="card">
+            <h2>carta 1 </h2>
+            <p>escrito de carta uno</p>
+        </div>
+        <div class="card">
+            <h2>carta 2</h2>
+            <p>escrito de carta dos</p>
+        </div>
+        <div class="card">
+            <h2>carta 3</h2>
+            <p>escrito de carta tres</p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

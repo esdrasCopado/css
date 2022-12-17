@@ -56,3 +56,37 @@ a{
     margin: 0;
     padding: 0 0 5px 0;
 }
+
+#post #social{
+    color: #999;
+    
+}
+#post #social a{
+    color: rgb(153, 94, 212);
+}
+#post #social a:hover{
+    text-decoration: underline;
+}
+
+#post #social #statistics #likes img{
+    display: inline-block;
+    vertical-align: middle;
+}
+#post #social #statistics div{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    
+}
+#post #social #statistics #comments{
+    text-align: right;
+    font-size: 0.85rem;
+}
+#post #social #actions{
+    margin-top: 2px;
+    border-top: solid 1px  rgb(153, 94, 212);
+}
+#post #social #actions a{
+    font-weight: bold;
+    
+}

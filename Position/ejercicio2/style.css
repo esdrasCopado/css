@@ -1,0 +1,32 @@
+body{
+    background-color:rgb(162, 103, 192) ;
+}
+#container{
+    margin-top: 100px;
+    text-align: center;
+}
+.image{
+    display: inline-block;
+    width: 300px;
+}
+.name{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    display: none;
+
+
+    /*con la posicion absoluta el elemento flota
+    por encima de todos los elementos*/
+    position: absolute;
+    margin-left: 85px;
+    /*si la posicion es absolute se mueven respecto
+    a el cuadro de la pagina o el viewport*/
+    top: 340px;
+}
+
+.image:hover .name{
+    display: block;
+}

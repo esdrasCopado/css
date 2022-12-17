@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(162, 103, 192);
+}
+#container{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#imgae2{
+    /*la posicion relative no modifica el espacio que se deja
+    pero el espacio que ocupa original mente dentro del documento de nuestra pagina web
+    se queda intacto*/
+    position: relative;
+    left: 50px;
+}

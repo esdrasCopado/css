@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(180, 170, 237);
+    
+}
+#container{
+    margin-top: 50px;
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 0.8rem;
+    padding: 0 10px;
+
+}
+#perfil{
+    color: white;
+    padding-top: 40px;
+    position: fixed;
+    left: 100px;
+    
+}
+#perfil .name{
+    background-color: black;
+    width: 40%;
+    padding: 5px 0;
+    left: 100px;
+    position: relative;
+    display: none;
+}
+#perfil:hover .name{
+    display: block;
+}
+#content{
+    font-size: 2rem;
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(162, 103, 192);
+}
+#container{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#imgae2{
+    /*
+    cuando declaramos una posicion relativa se mueve el elemento
+    pero el espacio que ocupa originalmente dentro de la paguina 
+    se queda intacto (no se ocupa por otro elemento)
+    */
+    position: relative;
+    left: 50px;
+}

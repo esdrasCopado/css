@@ -13,10 +13,12 @@ body{
 
 }
 #perfil{
+    
     color: white;
     padding-top: 40px;
     position: fixed;
-    left: 100px;
+    width: 30%;
+    left: 5%;
     
 }
 #perfil .name{

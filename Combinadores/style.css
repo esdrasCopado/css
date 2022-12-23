@@ -1,0 +1,48 @@
+
+/*
+combinador de descendencia A B, desciende el estilo para todos los elementos
+que desciendan de nuestro elemento principal
+*/
+#capa p{
+    background-color: coral;
+    width: 10rem;
+    display: inline-block;
+    margin-left: 1rem;
+}
+#capa{border: dashed black 2px;}
+/*
+combinador hijo, solamente el estilo se le va a aplicar a los hijos directos
+de esta capa
+*/
+#capa2 > p{
+    background-color: rgb(80, 135, 255);
+    width: 10rem;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+#capa2{margin-top: 10px; border: dashed black 2px;}
+
+/*
+Combinador de hermano adyacente, el estilo se va a aplicar solamente
+al hermano que este a continuación del elemento seleccionado.
+*/
+#capa3 #parrafo-1 + p{
+    background-color: rgb(80, 255, 141);
+    width: 10rem;
+    display: inline-block;
+    margin-left: 1rem;
+}
+#capa3{margin-top: 10px; border: dashed black 2px;}
+
+/*
+Combinador de los hermanos generales, se le va aplicar a todos los hermanos
+directos del elemento seleccionado
+*/
+#otra_capa4 ~ p{
+    background-color: rgb(206, 125, 253);
+    width: 10rem;
+    display: inline-block;
+    margin-left: 1rem;
+}
+#capa4{margin-top: 10px; border: dashed black 2px;}
